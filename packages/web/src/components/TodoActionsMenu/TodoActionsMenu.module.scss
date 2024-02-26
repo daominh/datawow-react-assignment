@@ -1,0 +1,41 @@
+.triggerBtn {
+  background-color: transparent;
+  color: hsl(var(--muted-foreground));
+
+  padding: 4px 8px;
+
+  margin-left: auto;
+
+  &:hover {
+    background-color: hsla(var(--muted), 0.1);
+  }
+}
+
+.dropdownMenu {
+  display: flex;
+
+  background-color: hsl(var(--white));
+  border-radius: 8px;
+  padding: 16px 22px;
+}
+
+.actionBtn {
+  background-color: transparent;
+  min-width: 50px;
+
+  justify-content: start;
+
+  padding: 4px 8px;
+
+  &:hover {
+    background-color: hsla(var(--muted), 0.1);
+  }
+}
+
+.deleteBtn {
+  color: hsl(var(--pink));
+}
+
+.editBtn {
+  color: hsl(var(--black));
+}

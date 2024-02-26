@@ -1,0 +1,20 @@
+.form {
+  position: relative;
+}
+
+.submitBtn {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  text-align: center;
+
+  width: 85px;
+}
+
+.formErrorMessage {
+  font-size: 14px;
+
+  padding: 8px 16px;
+}

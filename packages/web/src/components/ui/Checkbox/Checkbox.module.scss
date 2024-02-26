@@ -1,0 +1,11 @@
+.checkbox {
+  height: 16px;
+  width: 16px;
+
+  font-size: 4px;
+
+  border-radius: 50%;
+  border: 2px solid hsl(var(--secondary));
+
+  accent-color: hsl(var(--secondary));
+}

@@ -1,0 +1,38 @@
+.progressContainer {
+  background-color: hsl(var(--pink));
+  color: hsl(var(--white));
+
+  border-radius: 20px;
+  padding: 18px;
+}
+
+.progressTitle {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.progressOuter {
+  background-color: hsl(var(--black));
+  border-radius: 999px;
+  height: 8px;
+  margin-top: 12px;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+
+.progressInner {
+  background-color: hsl(var(--white));
+  border-radius: 999px;
+  height: 7px;
+  width: 100%;
+
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+
+.progressNumber {
+  margin-top: 8px;
+  color: hsl(var(--pink-light));
+}
